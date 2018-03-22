@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.4" % "test")
 
 libraryDependencies += "com.typesafe.akka" % "akka-http-spray-json-experimental_2.11" % "2.4.4"
+
+resolvers += "Typesafe repository releases" at "http://repo.typesafe.com/typesafe/releases/"
